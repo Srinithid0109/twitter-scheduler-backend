@@ -24,9 +24,9 @@ app.use("/api/tweets", tweetRoutes);
 mongoose
   .connect(process.env.MONGO_URI || "")
   .then(() => {
-    console.log("✅ MongoDB Connected");
+    console.log(" MongoDB Connected");
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on port ${PORT}`);
+      console.log(` Server running on port ${PORT}`);
     });
   })
   .catch((err) => console.error("MongoDB connection error:", err));
