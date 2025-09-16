@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Tweet from "../models/tweet";
+import Tweet from "../models/Tweet";
 import { authMiddleware, AuthRequest } from "../middleware/authMiddleware";
 
 const router = Router();
