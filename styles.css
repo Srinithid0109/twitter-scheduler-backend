@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f5f8fa;
+  color: #14171a;
+}
+
+h1 {
+  color: #1da1f2;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccd6dd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1991db;
+}
+
+button:disabled {
+  background-color: #aab8c2;
+  cursor: not-allowed;
+}
+
+#tweetList {
+  list-style: none;
+  padding: 0;
+}
+
+.tweet-item {
+  background: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tweet-item time {
+  font-size: 0.875rem;
+  color: #657786;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
